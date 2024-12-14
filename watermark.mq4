@@ -78,7 +78,7 @@ void DrawWatermark()
     ObjectSetInteger(0, "CustomTextLabel", OBJPROP_XDISTANCE, customXPos);
     ObjectSetInteger(0, "CustomTextLabel", OBJPROP_YDISTANCE, customYPos);
     ObjectSetInteger(0, "CustomTextLabel", OBJPROP_COLOR, CustomTextColor);
-    ObjectSetInteger(0, "CustomTextLabel", OBJPROP_FONTSIZE, CustomFontSize);  // Csak a CustomFontSize-t használjuk
+    ObjectSetInteger(0, "CustomTextLabel", OBJPROP_FONTSIZE, CustomFontSize);
     ObjectSetString(0, "CustomTextLabel", OBJPROP_TEXT, CustomText);
    }
 }
